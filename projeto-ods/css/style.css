@@ -1,0 +1,406 @@
+body {
+    margin: 0vh;
+    padding: 0vh;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgb(65, 148, 35), rgb(107, 253, 54));
+    width: 100%;
+    height: 12.8vh;
+    display: flex;
+}
+
+.a {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 6.4vh;
+    padding-top: 4vh;
+    align-items: end;
+
+}
+
+.div-1 {
+    width: 100%;
+    height: 96vh;
+    background-image: linear-gradient(to right, rgb(57, 133, 29), rgb(86, 192, 43));
+    display: flex;
+    display: inline-block;
+}
+
+.title-1 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 24vh;
+    padding-top: 14.4vh;
+    padding-left: 24vh;
+    display: flex;
+}
+
+.sub-title {
+    font-family: 'Manrope', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12vh;
+    padding-left: 27.2vh;
+    display: flex;
+}
+
+.div-2 {
+    width: 100%;
+    height: 128vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    position: relative;
+}
+
+.mundi {
+    width: 100%;
+    height: 100vh;
+    filter: blur(8px);
+    padding-left: 1vh;
+    padding-top: 0.5vh;
+}
+
+.title-mundo {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    font-size: 20vh;
+    color: rgb(86, 192, 43);
+    padding-left: 68vh;
+}
+
+.div-mundi-1 {
+    background-color: rgb(17, 104, 29);
+    opacity: 0.5;
+    border-radius: 5%;
+    position: absolute;
+    top: 32vh;
+    width: 40vh;
+    height: 56vh;
+    margin-left: 12.67vh;
+    transition: transform 1s;
+    transform: translateX(30) scale(0.5);
+}
+
+.div-mundi-1:hover,
+.div-mundi-1:focus {
+    transform: translateX(1.26vh) scale(1.2);
+    opacity: 1.0;
+}
+
+
+.div-mundi-2 {
+    background-color: rgb(17, 104, 29);
+    opacity: 0.5;
+    border-radius: 5%;
+    position: absolute;
+    top: 32vh;
+    width: 40vh;
+    height: 56vh;
+    margin-left: 55vh;
+    transition: transform 1s;
+    transform: translateX(30) scale(0.5);
+}
+
+.div-mundi-2:hover,
+.div-mundi-2:focus {
+    transform: translateX(1.26vh) scale(1.2);
+    opacity: 1.0;
+}
+
+
+.div-mundi-3 {
+    background-color: rgb(17, 104, 29);
+    opacity: 0.5;
+    border-radius: 5%;
+    position: absolute;
+    top: 32vh;
+    width: 40vh;
+    height: 56vh;
+    margin-left: 97vh;transition: transform 1s;
+    transform: translateX(30) scale(0.5);
+}
+
+.div-mundi-3:hover,
+.div-mundi-3:focus {
+    transform: translateX(1.26vh) scale(1.2);
+    opacity: 1.0;
+}
+
+.div-mundi-4 {
+    background-color: rgb(17, 104, 29);
+    opacity: 0.5;
+    border-radius: 5%;
+    position: absolute;
+    top: 32vh;
+    width: 40vh;
+    height: 56vh;
+    margin-left: 139vh;
+    transition: transform 1s;
+    transform: translateX(30) scale(0.5);
+}
+
+.div-mundi-4:hover,
+.div-mundi-4:focus {
+    transform: translateX(1.26vh) scale(1.2);
+    opacity: 1.0;
+}
+
+.img-div-1{
+    width: 33vh;
+    height: 23vh;
+    padding-left: 23px;
+    padding-top: 15px;
+}
+
+.img-div-2{
+    width: 33vh;
+    height: 23vh;
+    padding-left: 23px;
+    padding-top: 15px;
+}
+
+.img-div-3{
+    width: 33vh;
+    height: 23vh;
+    padding-left: 23px;
+    padding-top: 15px;
+}
+
+.img-div-4{
+    width: 33vh;
+    height: 23vh;
+    padding-left: 23px;
+    padding-top: 15px;
+}
+
+.text-mundi{
+    font-family: 'montserrat';
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.div-brasil{
+
+    width: 100%;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+}
+
+.title-brasil {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    font-size: 20vh;
+    color: rgb(86, 192, 43);
+    padding-left: 68vh;
+    margin: 0;
+}
+
+.img-brasil{
+    width: 1000px;
+    height: 650px;
+    padding-left: 150px;
+    position: relative;
+}
+
+.click-para{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 680px;
+    top: 150px;
+}
+
+.div-para{
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    bottom: 5px;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.click-para:hover{
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.click-para:hover .div-para {
+    visibility: visible;
+    opacity: 1;
+}
+
+.click-mg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 760px;
+    top: 420px;
+}
+
+.click-mg:hover{
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-mg{
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.click-mg:hover .div-mg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.click-am{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 550px;
+    top: 180px;
+}
+
+.click-am:hover{
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-am{
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    top: 0px;
+    right: 100%;
+    width: 200px;
+    height: 200px;
+    
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.click-am:hover .div-am {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.click-ba{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 800px;
+    top: 320px;
+}
+
+.click-ba:hover{
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-ba{
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.click-ba:hover .div-ba {
+    visibility: visible;
+    opacity: 1;
+}
+
+.click-mt{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 650px;
+    top: 290px;
+}
+
+.click-mt:hover{
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-mt{
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.click-mt:hover .div-mt {
+    visibility: visible;
+    opacity: 1;
+}
