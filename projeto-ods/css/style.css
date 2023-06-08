@@ -119,7 +119,8 @@ nav {
     top: 32vh;
     width: 40vh;
     height: 56vh;
-    margin-left: 97vh;transition: transform 1s;
+    margin-left: 97vh;
+    transition: transform 1s;
     transform: translateX(30) scale(0.5);
 }
 
@@ -148,41 +149,41 @@ nav {
     opacity: 1.0;
 }
 
-.img-div-1{
+.img-div-1 {
     width: 33vh;
     height: 23vh;
     padding-left: 23px;
     padding-top: 15px;
 }
 
-.img-div-2{
+.img-div-2 {
     width: 33vh;
     height: 23vh;
     padding-left: 23px;
     padding-top: 15px;
 }
 
-.img-div-3{
+.img-div-3 {
     width: 33vh;
     height: 23vh;
     padding-left: 23px;
     padding-top: 15px;
 }
 
-.img-div-4{
+.img-div-4 {
     width: 33vh;
     height: 23vh;
     padding-left: 23px;
     padding-top: 15px;
 }
 
-.text-mundi{
+.text-mundi {
     font-family: 'montserrat';
     color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 
-.div-brasil{
+.div-brasil {
 
     width: 100%;
     height: 650px;
@@ -202,25 +203,26 @@ nav {
     margin: 0;
 }
 
-.img-brasil{
-    width: 1000px;
+.img-brasil {
+    width: 600px;
     height: 650px;
-    padding-left: 150px;
+    margin-left: 0px;
     position: relative;
+    float: left;
 }
 
-.click-para{
+.click-para {
     width: 15px;
     height: 15px;
     position: absolute;
     border-radius: 50%;
     border: 2px rgb(255, 255, 255) double;
     background-color: rgb(43, 83, 143);
-    margin-left: 680px;
+    margin-left: 330px;
     top: 150px;
 }
 
-.div-para{
+.div-para {
     background-color: rgb(107, 253, 54);
     border-radius: 5%;
     position: absolute;
@@ -228,7 +230,12 @@ nav {
     left: 100%;
     width: 200px;
     height: 200px;
-    
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s linear;
@@ -237,7 +244,7 @@ nav {
     transition: opacity 0.5s linear;
 }
 
-.click-para:hover{
+.click-para:hover {
     border-radius: 50%;
     border: 2px rgb(43, 83, 143) double;
     background-color: rgb(255, 255, 255);
@@ -248,24 +255,24 @@ nav {
     opacity: 1;
 }
 
-.click-mg{
+.click-mg {
     width: 15px;
     height: 15px;
     position: absolute;
     border-radius: 50%;
     border: 2px rgb(255, 255, 255) double;
     background-color: rgb(43, 83, 143);
-    margin-left: 760px;
+    margin-left: 450px;
     top: 420px;
 }
 
-.click-mg:hover{
+.click-mg:hover {
     border-radius: 50%;
     border: 2px rgb(43, 83, 143) double;
     background-color: rgb(255, 255, 255);
 }
 
-.div-mg{
+.div-mg {
     background-color: rgb(107, 253, 54);
     border-radius: 5%;
     position: absolute;
@@ -273,7 +280,13 @@ nav {
     left: 100%;
     width: 200px;
     height: 200px;
-    
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
+
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s linear;
@@ -287,24 +300,24 @@ nav {
     opacity: 1;
 }
 
-.click-am{
+.click-am {
     width: 15px;
     height: 15px;
     position: absolute;
     border-radius: 50%;
     border: 2px rgb(255, 255, 255) double;
     background-color: rgb(43, 83, 143);
-    margin-left: 550px;
+    margin-left: 190px;
     top: 180px;
 }
 
-.click-am:hover{
+.click-am:hover {
     border-radius: 50%;
     border: 2px rgb(43, 83, 143) double;
     background-color: rgb(255, 255, 255);
 }
 
-.div-am{
+.div-am {
     background-color: rgb(107, 253, 54);
     border-radius: 5%;
     position: absolute;
@@ -312,7 +325,12 @@ nav {
     right: 100%;
     width: 200px;
     height: 200px;
-    
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s linear;
@@ -327,24 +345,24 @@ nav {
 }
 
 
-.click-ba{
+.click-ba {
     width: 15px;
     height: 15px;
     position: absolute;
     border-radius: 50%;
     border: 2px rgb(255, 255, 255) double;
     background-color: rgb(43, 83, 143);
-    margin-left: 800px;
+    margin-left: 500px;
     top: 320px;
 }
 
-.click-ba:hover{
+.click-ba:hover {
     border-radius: 50%;
     border: 2px rgb(43, 83, 143) double;
     background-color: rgb(255, 255, 255);
 }
 
-.div-ba{
+.div-ba {
     background-color: rgb(107, 253, 54);
     border-radius: 5%;
     position: absolute;
@@ -352,7 +370,12 @@ nav {
     left: 100%;
     width: 200px;
     height: 200px;
-    
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s linear;
@@ -366,24 +389,24 @@ nav {
     opacity: 1;
 }
 
-.click-mt{
+.click-mt {
     width: 15px;
     height: 15px;
     position: absolute;
     border-radius: 50%;
     border: 2px rgb(255, 255, 255) double;
     background-color: rgb(43, 83, 143);
-    margin-left: 650px;
+    margin-left: 280px;
     top: 290px;
 }
 
-.click-mt:hover{
+.click-mt:hover {
     border-radius: 50%;
     border: 2px rgb(43, 83, 143) double;
     background-color: rgb(255, 255, 255);
 }
 
-.div-mt{
+.div-mt {
     background-color: rgb(107, 253, 54);
     border-radius: 5%;
     position: absolute;
@@ -391,7 +414,12 @@ nav {
     left: 100%;
     width: 200px;
     height: 200px;
-    
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.5s linear;
@@ -403,4 +431,95 @@ nav {
 .click-mt:hover .div-mt {
     visibility: visible;
     opacity: 1;
+}
+
+
+.click-ma {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 420px;
+    top: 175px;
+}
+
+.click-ma:hover {
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-ma {
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    bottom: 0px;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
+}
+
+.click-ma:hover .div-ma {
+    visibility: visible;
+    opacity: 1;
+}
+
+.click-pe {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px rgb(255, 255, 255) double;
+    background-color: rgb(43, 83, 143);
+    margin-left: 570px;
+    top: 220px;
+}
+
+.click-pe:hover .div-pe {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.click-pe:hover {
+    border-radius: 50%;
+    border: 2px rgb(43, 83, 143) double;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-pe {
+    background-color: rgb(107, 253, 54);
+    border-radius: 5%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-weight: bolder;
+    padding: 0.5cm;
+
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear;
+    transition: opacity 0.5s linear;
 }
