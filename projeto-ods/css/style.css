@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    background-image: linear-gradient(to right, rgb(65, 148, 35), rgb(107, 253, 54));
+    background-image: linear-gradient(to right, rgb(57, 133, 29), rgb(86, 192, 43));
     width: 100%;
     height: 12.8vh;
     display: flex;
@@ -30,7 +30,7 @@ nav {
 .div-1 {
     width: 100%;
     height: 96vh;
-    background-image: linear-gradient(to right, rgb(57, 133, 29), rgb(86, 192, 43));
+    background-image: linear-gradient(to right, rgb(65, 148, 35), rgb(107, 253, 54));
     display: flex;
     display: inline-block;
 }
@@ -75,12 +75,12 @@ nav {
     font-family: 'Manrope', sans-serif;
     font-weight: bolder;
     font-size: 20vh;
-    color: rgb(86, 192, 43);
+    color: rgb(64, 174, 73);
     padding-left: 68vh;
 }
 
 .div-mundi-1 {
-    background-color: rgb(17, 104, 29);
+    background-color: rgb(64, 174, 73);
     opacity: 0.5;
     border-radius: 5%;
     position: absolute;
@@ -100,7 +100,7 @@ nav {
 
 
 .div-mundi-2 {
-    background-color: rgb(17, 104, 29);
+    background-color: rgb(64, 174, 73);
     opacity: 0.5;
     border-radius: 5%;
     position: absolute;
@@ -120,7 +120,7 @@ nav {
 
 
 .div-mundi-3 {
-    background-color: rgb(17, 104, 29);
+    background-color: rgb(64, 174, 73);
     opacity: 0.5;
     border-radius: 5%;
     position: absolute;
@@ -139,7 +139,7 @@ nav {
 }
 
 .div-mundi-4 {
-    background-color: rgb(17, 104, 29);
+    background-color: rgb(64, 174, 73);
     opacity: 0.5;
     border-radius: 5%;
     position: absolute;
@@ -173,7 +173,7 @@ nav {
     font-family: 'montserrat';
     color: rgb(255, 255, 255);
     font-weight: bolder;
-    padding: 0.5cm;
+    padding-left: 0.5cm;
 }
 
 .text-mundi-2 {
@@ -182,7 +182,16 @@ nav {
     color: rgb(17, 104, 29);
     font-weight: bolder;
     padding: 3cm 5cm 5cm 5cm;
-    width: 450px;
+    width: 550px;
+}
+
+.text-mundi-3 {
+    font-family: 'montserrat';
+    font-size: 20px;
+    color: rgb(17, 104, 29);
+    font-weight: bolder;
+    padding: 1cm 5cm 1cm 5cm;
+    width: 550px;
 }
 
 .grafico-mundo{
@@ -194,20 +203,21 @@ nav {
 
 .div-brasil {
 
-    width: 100%;
+    width: 700px;
     height: 650px;
     background-color: rgb(255, 255, 255);
     position: relative;
     display: flex;
-    display: inline-block;
+    
     align-items: center;
+    float: left;
 }
 
 .title-brasil {
     font-family: 'Manrope', sans-serif;
     font-weight: bolder;
     font-size: 20vh;
-    color: rgb(86, 192, 43);
+    color: rgb(64, 174, 73);
     padding-left: 35%;
     margin: 0;
 }
@@ -237,8 +247,8 @@ nav {
     position: absolute;
     bottom: 5px;
     left: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -287,8 +297,8 @@ nav {
     position: absolute;
     top: 0px;
     left: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -316,8 +326,8 @@ nav {
     border-radius: 50%;
     border: 2px rgb(255, 255, 255) double;
     background-color: rgb(43, 83, 143);
-    margin-left: 190px;
-    top: 180px;
+    margin-left: 240px;
+    top: 130px;
 }
 
 .click-am:hover {
@@ -330,10 +340,10 @@ nav {
     background-color: rgb(107, 253, 54);
     border-radius: 5%;
     position: absolute;
-    top: 0px;
-    right: 100%;
-    width: 200px;
-    height: 200px;
+    top: 10%;
+    left: 100%;
+    width: 300px;
+    height: 300px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -377,8 +387,8 @@ nav {
     position: absolute;
     top: 0px;
     left: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -421,7 +431,7 @@ nav {
     position: absolute;
     top: 0px;
     left: 100%;
-    width: 200px;
+    width: 300px;
     height: 200px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
@@ -466,8 +476,8 @@ nav {
     position: absolute;
     bottom: 0px;
     left: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -517,8 +527,8 @@ nav {
     position: absolute;
     top: 0px;
     left: 100%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     font-family: 'Montserrat';
     color: rgb(255, 255, 255);
     text-align: justify;
@@ -531,4 +541,60 @@ nav {
     -moz-transition: opacity 0.5s linear;
     -o-transition: opacity 0.5s linear;
     transition: opacity 0.5s linear;
+}
+
+.div-ods{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(255, 255, 255);
+}
+
+.title-objetivo{
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    font-size: 20vh;
+    color: rgb(64, 174, 73);
+    padding-left: 25%;
+    margin: 0;
+}
+
+.img-ods{
+    margin-right: -25px;
+    float: right;
+    padding-top: 80px;
+}
+
+.text-mundi-4 {
+    font-family: 'montserrat';
+    font-size: 20px;
+    color: rgb(17, 104, 29);
+    font-weight: bolder;
+    padding-left: 3cm;
+    width: 750px;
+}
+
+.img-1{
+    width: 200px;
+    height: 120px;
+    padding-left: 50px;
+}
+
+.info-div{
+    width: 600px;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+}
+
+.info{
+    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.brasil-div-2{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
 }
